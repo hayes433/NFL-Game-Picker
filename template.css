@@ -1,0 +1,104 @@
+html body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+h2{
+	margin: 0;
+}
+img {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+div {
+	vertical-align: top;
+	padding: 0;
+	margin: 0;
+}
+
+div.banner{
+	width: 100%;
+	background-color: gold;
+	text-align: center;
+	padding: none;
+}
+
+div.games{
+	width: 80%;
+	margin:0 auto;
+}
+
+div.awayTeam {
+	float: left;
+	height: 100px;
+	width: 45%;
+}
+
+div.at {
+	float: left;
+	height: 100px;
+	width: 10%;
+}
+
+div.homeTeam {
+	float: left;
+	height: 100px;
+	width: 45%;
+}
+div.awayTeamImage {
+	width: 100px;
+	float: left;
+}
+div.homeTeamImage {
+	width: 100px;
+	float: left;
+}
+
+div.teamName {
+	float: left;
+	height: 100%;
+	font-size: 2em;
+	text-align: center;
+}
+
+h1.season{
+	font-size: 2.8em;
+	color: green;
+}
+
+h2.week{
+	font-size: 2em;
+	color: green;
+}
+
+div.teamName {
+	float: left;
+}
+
+p.at {
+	font-size: 4.7em;
+	text-align: center;
+}
+
+
+input[type='radio'] {
+  display: none;
+}
+
+/*Team Colors*/
+#Vikings {
+	background-color: purple;
+}
+
+#Packers {
+	background-color: green;
+}

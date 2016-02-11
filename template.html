@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NFL Game Picks</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="template.css">
+	<!--Load jQuery from Google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="template.js"></script>
+</head>
+<body>
+	<div class="banner">
+		<h1 class="season">2016 NFL Season</h1>
+		<h2 class="week season">Week 1</h2>
+	</div>
+	<div class="games">
+		<div class="game" id="Vikings@Packers">
+			<label>
+				<input type="radio" name="Vikings@Packers" value="Vikings"/>
+				<div class="awayTeam" id="Vikings">
+					<div class="awayTeamImage">
+						<img class="awayTeamImage" src="teamLogos/Vikings.jpg" height="100" width="100">
+					</div>
+					<div class="teamName">Vikings</div>
+				</div>
+			</label>
+			<div class="at">
+				<p class="at">@</p>
+			</div>
+			<label>
+				<input type="radio" name="Vikings@Packers" value="Packers"/>
+				<div class="homeTeam" id="Packers">
+					<div class="homeTeamImage">
+						<img class="homeTeamImage" src="teamLogos/Packers.jpg" height="100" width="100">
+					</div>
+					<div class="teamName">Packers</div>
+				</div>
+			</label>
+		</div>
+	</div>
+</body>
+</html>
