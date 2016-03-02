@@ -27,6 +27,9 @@ div {
 
 div.banner{
 	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99999;
 	background-color: gold;
 	text-align: center;
 	padding: none;
@@ -67,6 +70,15 @@ div.teamName {
 	float: left;
 	height: 100%;
 	font-size: 2em;
+	text-align: center;
+}
+
+div.submit {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: gold;
 	text-align: center;
 }
 

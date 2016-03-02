@@ -1,3 +1,7 @@
+$(window).load(function(){
+	var height = $(".banner").height();
+	$(".games").css("margin-top", height);
+});
 
 $(document).ready(function(){
 	$("input[name='Vikings@Packers']").change(function(){
